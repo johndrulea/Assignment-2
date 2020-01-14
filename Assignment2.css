@@ -1,0 +1,88 @@
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(25, 138, 21);
+    background-image:url(PetPictures/pets1.png);
+    background-position: center bottom;
+    height: 150px;
+    text-shadow: 3px 2px black;
+    letter-spacing: 5px;
+    
+}    
+
+h2{
+    direction: rtl;
+}
+
+h3{
+    background-color: lightblue;
+    border: solid 3px black;
+    color: red;
+    font-size: 20px;
+    width: 30px;
+    width: 100px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h3 a:hover{
+    color:white;
+
+}
+
+h4{
+    background-color: pink;
+    border: solid 3px black;
+    font-size: 15px;
+    width: fit-content;
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+h4:hover{
+    scale: 1.5;
+}
+
+body{
+    background-color: beige;
+    color: rgb(3, 107, 3);
+}
+
+p{
+    text-indent: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pets{
+    width: fit-content;
+    height: 250px;
+    background: white;
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+.petpics{
+    height: 150px;
+    width: 150px;
+    border: 5px solid green; 
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    opacity: 0.8;
+
+}
+
+#imgPets:hover{
+    transform: scale(1.1)
+}
